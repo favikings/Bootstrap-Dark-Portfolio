@@ -1,0 +1,71 @@
+body,html{
+    background: #000;
+    height:100%;
+    width:100%;
+    color:#f4f4f4;
+    font-family: 'Abril Fatface' !important;
+
+}
+.wrapper{
+    overflow: hidden;
+}
+
+.navbarColor{
+    background-color:#000 !important;
+}
+
+.main-sector{
+    background:url("/img/bg.jpg") no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+.main-sector h1{
+    padding-top: 15%;
+}
+.main-sector-icon a{
+    text-decoration: none;
+    color:#ed239f;
+
+}
+
+.main-sector-icon{
+    color:#ed239f;
+    border:2px solid#ed239f;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+    line-height: 2.7rem;
+    font-size: 1.5rem;
+    margin-right:10px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+}
+
+.service-icon {
+    background-color: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%);
+    background-image: linear-gradient(to right, #1345e6 , #ed239f);
+    color: #fff;
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px 40px 10px;
+    background: #0e0e0e;
+    box-shadow: 10px 40px 10px 10px  #000000;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
